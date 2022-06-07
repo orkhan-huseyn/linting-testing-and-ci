@@ -1,5 +1,5 @@
-const intersection = (firstArr, secondArr) => {
-    if (((firstArr === undefined) && (secondArr === undefined)) || ((firstArr.length === 0) && (secondArr.length === 0))) {
+const intersection = (firstArr = [], secondArr = []) => {
+    if ((firstArr.length === 0) && (secondArr.length === 0)) {
         return [];
     } 
 
