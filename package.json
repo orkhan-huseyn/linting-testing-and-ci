@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint ./src --ext .js",
-    "lint:fix": "eslint ./src --ext .js --fix"
+    "lint:fix": "eslint ./src --ext .js --fix",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/guseinguseinov/js_homework#readme",
   "devDependencies": {
     "eslint": "^8.23.1",
-    "eslint-config-prettier": "^8.5.0"
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1"
   }
 }
