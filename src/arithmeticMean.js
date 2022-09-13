@@ -5,4 +5,5 @@ export const arithmeticMean = (arr = []) => {
         sum += i;
     }
     return sum / arr.length;
+    // this is comment
 };
