@@ -1,4 +1,4 @@
-export const some = (arr, func) => {
+module.exports.some = (arr, func) => {
     for (let elem of arr) {
         let result = func(elem);
         if (result) {

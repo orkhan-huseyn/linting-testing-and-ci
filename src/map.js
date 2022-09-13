@@ -1,4 +1,4 @@
-export const map = (arr, func) => {
+module.exports.map = (arr, func) => {
     let secondaryArr = [];
     for (let elem of arr) {
         let result = func(elem);

@@ -1,4 +1,4 @@
-export const reverse = (arr) => {
+module.exports.reverse = (arr) => {
     if (arr === undefined) {
         return [];
     }

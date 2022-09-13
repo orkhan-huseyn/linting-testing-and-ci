@@ -1,4 +1,4 @@
-export const includes = (arr, element = 0) => {
+module.exports.includes = (arr, element = 0) => {
     let isIncluded = false;
 
     if (arr === undefined || arr.length === 0) {

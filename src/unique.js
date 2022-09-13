@@ -1,4 +1,4 @@
-export const unique = (arr) => {
+module.exports.unique = (arr) => {
     if (arr === undefined || arr.length === 0) {
         return [];
     }

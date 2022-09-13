@@ -1,4 +1,4 @@
-export const sum = (list) => {
+module.exports.sum = (list) => {
     if (list === undefined) return 0;
 
     let sumOfNums = 0;

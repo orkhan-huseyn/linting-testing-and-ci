@@ -1,4 +1,4 @@
-export const geometricMean = (arr) => {
+module.exports.geometricMean = (arr) => {
     if (arr === undefined || arr.length === 0) return 0;
 
     let mult = 1;

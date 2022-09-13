@@ -1,4 +1,4 @@
-export const union = (firstArr = [], secondArr = []) => {
+module.exports.union = (firstArr = [], secondArr = []) => {
     let arrays = [...firstArr, ...secondArr];
     let secondaryArr = [];
 

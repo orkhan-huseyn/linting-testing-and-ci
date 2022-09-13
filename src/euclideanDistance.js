@@ -1,4 +1,4 @@
-export const euclideanDistance = (firstArr, secondArr) => {
+module.exports.euclideanDistance = (firstArr, secondArr) => {
     if (
         (firstArr === undefined && secondArr === undefined) ||
         (firstArr.length === 0 && secondArr.length === 0)

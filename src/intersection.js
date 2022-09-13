@@ -1,4 +1,4 @@
-export const intersection = (firstArr = [], secondArr = []) => {
+module.exports.intersection = (firstArr = [], secondArr = []) => {
     if (firstArr.length === 0 && secondArr.length === 0) {
         return [];
     }

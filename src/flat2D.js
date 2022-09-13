@@ -1,4 +1,4 @@
-export const flat2D = (arr) => {
+module.exports.flat2D = (arr) => {
     if (arr === undefined || arr.length === 0) {
         return [];
     }

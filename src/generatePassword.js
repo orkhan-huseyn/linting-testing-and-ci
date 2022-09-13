@@ -3,7 +3,7 @@ let upperCase = 'QWERTYUIOPASDFGHJKLZXCVBNM';
 let lowerCase = upperCase.toLowerCase();
 let numbers = '1234567890';
 
-export const generatePassword = (passwordLength) => {
+module.exports.generatePassword = (passwordLength) => {
     let chars = upperCase + lowerCase + numbers;
     let passwd = '';
 
@@ -15,7 +15,7 @@ export const generatePassword = (passwordLength) => {
 
 // second solution
 let charList = [];
-export const generate = (passwordLength) => {
+module.exports.generate = (passwordLength) => {
     let passwd = '';
     let n = 0;
     charList.push(upperCase, lowerCase, numbers);

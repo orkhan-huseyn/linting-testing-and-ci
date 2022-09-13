@@ -1,4 +1,4 @@
-export const every = (arr, func) => {
+module.exports.every = (arr, func) => {
     let istrue = true;
 
     for (let elem of arr) {

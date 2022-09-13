@@ -1,4 +1,4 @@
-export const filter = (arr, func) => {
+module.exports.filter = (arr, func) => {
     let secondaryArr = [];
 
     for (let elem of arr) {
